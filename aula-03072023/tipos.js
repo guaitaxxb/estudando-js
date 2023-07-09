@@ -14,7 +14,7 @@ variavel = "Prof. Gabriel";
 console.log(typeof variavel); // string
 
 variavel = true;
-console.log(typeof variavel); // boolean
+console.log(typeof variavel); // booleano
 
 variavel = { nome: "Gabriel", idade: 21 }; // object
 console.log(typeof variavel);

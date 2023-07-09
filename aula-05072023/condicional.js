@@ -9,6 +9,7 @@ const altura = 1.55;
 //     console.log("Não entrou no brinquedo!"); // a instrução é executada
 
 
+
 // let nivelIngles = 6; // 1, 2, 3, 4, 5
 // if(nivelIngles == 1)
 //     console.log("Nivel Iniciante");
@@ -22,6 +23,9 @@ const altura = 1.55;
 //         console.log("Nivel Fluente");
 // else
 //     console.log("Nivel de ingles desconhecido");
+
+
+
 
 
 // let saldo = 150;
@@ -62,34 +66,34 @@ const altura = 1.55;
 //     console.log("Conseguiu fazer a compra!");
 // }
 
-// let num1 = 150, num2 = 120, num3 = 300;
-// if(num1 == num2 || num2 == num3 || num1 == num3) {
-//     console.log("Os numeros não podem ser iguais.");
-// }
-// else if(num1 > num2 && num1 > num3) {
-//     if(num2 > num3) {
-//         console.log(num1 + " > " + num2 + " > " + num3); // num1 > num2 > num3
-//     }
-//     else {
-//         console.log(num1 + " > " + num3 + " > " + num2); // num1 > num3 > num2
-//     }
-// }
-// else if(num2 > num1 && num2 > num3) {
-//     if(num1 > num3) {
-//         console.log(num2 + " > " + num1 + " > " + num3); // num2 > num1 > num3
-//     }
-//     else {
-//         console.log(num2 + " > " + num3 + " > " + num1); // num2 > num3 > mum1
-//     }
-// }
-// else {
-//     if(num1 > num2) {
-//         console.log(num3 + " > " + num1 + " > " + num2); // num3 > num1 > mum2
-//     }
-//     else {
-//         console.log(num3 + " > " + num2 + " > " + num1); // num3 > num2 > mum1
-//     }
-// }
+let num1 = 150, num2 = 120, num3 = 300;
+if(num1 == num2 || num2 == num3 || num1 == num3) {
+    console.log("Os numeros não podem ser iguais.");
+}
+else if(num1 > num2 && num1 > num3) {
+    if(num2 > num3) {
+        console.log(num1 + " > " + num2 + " > " + num3); // num1 > num2 > num3
+    }
+    else {
+        console.log(num1 + " > " + num3 + " > " + num2); // num1 > num3 > num2
+    }
+}
+else if(num2 > num1 && num2 > num3) {
+    if(num1 > num3) {
+        console.log(num2 + " > " + num1 + " > " + num3); // num2 > num1 > num3
+    }
+    else {
+        console.log(num2 + " > " + num3 + " > " + num1); // num2 > num3 > mum1
+    }
+}
+else {
+    if(num1 > num2) {
+        console.log(num3 + " > " + num1 + " > " + num2); // num3 > num1 > mum2
+    }
+    else {
+        console.log(num3 + " > " + num2 + " > " + num1); // num3 > num2 > mum1
+    }
+}
 
 let mes = 9;
 if(mes == 1) {

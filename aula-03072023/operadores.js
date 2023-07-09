@@ -1,3 +1,11 @@
+
+
+
+
+const num1 = 5;
+const num2 = 8;
+const num3 = 4.5;
+
 /*
     Operadores Aritméticos
     + Adição

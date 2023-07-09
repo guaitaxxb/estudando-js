@@ -11,6 +11,8 @@ let result;
 // result = ((3 + 7) * 12) / 6; // 20
 // console.log(result);
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // Operadores de Atribuição (=, +=, -=, *=, /=, **=, %=)
 // result = result + 30;
 // result += 30;
@@ -42,6 +44,8 @@ let result;
 // let a = 23;
 // console.log(a); // 23
 
+
+//Primeiro, ele vai imprimir o que esta em a (23) e depois irá adicionar 1, então a agora é 24
 // console.log(a++); // 23
 
 // console.log(++a); // 25
