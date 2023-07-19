@@ -1,6 +1,8 @@
 // Função ou Function -> Rotina
 
 // Funções de Numéricas (Number -> Biblioteca)
+
+
 let result = Number.isNaN(NaN); // true / false
 console.log(result);
 
