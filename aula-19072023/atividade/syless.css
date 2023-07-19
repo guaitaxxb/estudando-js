@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:nth-child(1) {
+    background-color: #f43636;
+    color: #440808;
+}
+
+button:nth-child(2) {
+    background-color: #f1f436;
+    color: #444108;
+}
+
+button:nth-child(3) {
+    background-color: #6cf436;
+    color: #084412;
+}
